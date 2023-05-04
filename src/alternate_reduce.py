@@ -29,7 +29,7 @@ for key in args.keys:
                 pass
             y_axis.append(sumofnum)
     plt.plot(np.arange(len(y_axis)), y_axis, label=key)
-plt.xlabel("Date in 2020")
-plt.ylabel("Number of Tweets")
+plt.xlabel("Date")
+plt.ylabel("Vol. of Tweets")
 plt.legend()
-plt.savefig("myplot5.png",bbox_inches="tight")
+plt.savefig("alternate_red_plot.png",bbox_inches="tight")
